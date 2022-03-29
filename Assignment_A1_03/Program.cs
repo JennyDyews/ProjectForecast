@@ -78,7 +78,7 @@ namespace Assignment_A1_03
                     Console.WriteLine(group.Key.Date.ToShortDateString());
                     foreach (var item in group)
                     {
-                        Console.WriteLine($"   - {item.DateTime.ToShortTimeString()}: {item.Description}, teperature: {item.Temperature} degC, wind: {item.WindSpeed} m/s");
+                        Console.WriteLine($"   - {item.DateTime.ToShortTimeString()}: {item.Description}, temperature: {item.Temperature} degC, wind: {item.WindSpeed} m/s");
                     }
                 }
             }
