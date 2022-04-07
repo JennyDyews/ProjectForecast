@@ -69,7 +69,7 @@ namespace Assignment_A2_03.Services
         private async Task<News> ReadNewsApiAsync(string uri)
         {
 
-            uri = $"https://newsapi.org/v2/top-headlines?country=se&category={NewsCategory.general}&apiKey={apiKey}"; //soupossed to be cat
+           // uri = $"https://newsapi.org/v2/top-headlines?country=se&category={NewsCategory.general}&apiKey={apiKey}"; //soupossed to be cat
 
             HttpResponseMessage response = await httpClient.GetAsync(uri);
             response.EnsureSuccessStatusCode();
